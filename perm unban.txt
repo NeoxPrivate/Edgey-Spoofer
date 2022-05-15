@@ -1,0 +1,15 @@
+Format, Shift F10, diskpart, disk select 0, clean, format finish.
+flash bios
+Change all monitor serials, (Device parameters, EDID), remove last 4 serials and put again 3X (random number) are u suing the mouse
+Save your bios info with afuwin
+Open HxD and paste ur info there, then change BS control+f to search it (cheCck it on serials)
+Change all serials 3X, until dot, save then save as, replace it, delete afuwin.rom.bak.
+Check the file .rom doesn't have ur 
+plug in usb, flahs bios usb, Tools, Open rufus, and make sure it's on FreeDos mode, MBR bios or uefi, fat32, start
+copy to usb folder, replace (yes), 
+Rename afuwin.rom to bios.rom (important), paste it to usb, then boot it on bios
+Run cleaner 1 and cleaner as admin (edgey folder).
+Edit load.bat, cd "folder name",save it and run it as admin and normal
+Open cmd as admin, cd "folder name"  volumeid c: XXXX-XXXX (random number)
+Run cleaner for be extra save, (discord link)
+Download Tmac and change all macs possible, restart pc done all good? that's all right? yes epic fortnite new acc done
